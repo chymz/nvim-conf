@@ -36,7 +36,7 @@ Plug 'ternjs/tern_for_vim'
 " TypeScript
 Plug 'leafgarland/typescript-vim'
 Plug 'herringtondarkholme/yats.vim'
-Plug 'mhartington/nvim-typescript'
+Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
 
 " PHP
 Plug 'stanangeloff/php.vim'
